@@ -6,11 +6,14 @@
         <link href="{% static 'css/base.css' %}" rel="stylesheet">
     </head>
     <body>
+        <img src="{% static "img/logoblog.png" %}" alt="My logo"/>
         <header>
             <div class="nav-left">
                 <h1><a href="{% url 'home' %}">Real Life Blog</a></h1>
+                <h2>The right place to read the BEST life stories!!!</h2>
+                <h3><a href="{% url 'about' %}">Read about this blog</a></h3>
             </div>
-            <div class="nav-right">
+            <div class="nav-right">               
                 <a href="{% url 'post_new' %}">+ New Blog Post</a>
             </div>
         </header>
