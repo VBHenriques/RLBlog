@@ -10,7 +10,15 @@ header {
 }
 
 header h1 a {
-    color: green;
+    color: red;
+}
+
+header h3 a {
+    color: grey;
+}
+
+header h2 {
+    font-style: italic;
 }
 
 .nav-left {
@@ -28,7 +36,7 @@ header h1 a {
 
 .post-entry h2 a,
 .post-entry h2 a:visited {
-    color: blue;
+    color: green;
     text-decoration: none;
 }
 
